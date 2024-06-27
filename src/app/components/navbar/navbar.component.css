@@ -1,0 +1,12 @@
+.header .navbar {
+  background-color: transparent !important;
+}
+
+h1 {
+  font-weight: 700;
+  color: yellow;
+}
+
+.collapse ul.navbar-nav>li>a {
+  color: yellow;
+}
