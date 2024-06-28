@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --yellow-primary: #FFE81F;
+  --black-primary: #000000;
+}
+
+body{
+  background-image: url("../src/assets/img/background_star_wars.png");
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: 200;
+  color: var( --yellow-primary);
+}
+
+p {
+  color:  var( --yellow-primary);
+}
