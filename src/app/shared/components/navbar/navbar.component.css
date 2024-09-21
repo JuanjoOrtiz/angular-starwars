@@ -1,0 +1,48 @@
+.header .navbar {
+  background-color: transparent !important;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var( --yellow-primary);
+}
+
+.navbar-toggler{
+  background:  var( --yellow-primary);
+}
+
+.collapse ul.navbar-nav>li>a {
+  color:  var( --yellow-primary);
+  text-align: center;
+
+}
+.collapse ul.navbar-nav>li>a:hover {
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+
+}
+
+
+.navbar-brand{
+  margin-left:2rem;
+
+}
+
+.navbar-brand:hover {
+  color: var(--yellow-primary); /* Mantén el color original */
+}
+.router-link-active{
+  font-weight: bold;
+}
+
+.btn-outline-custom{
+  color:  var( --yellow-primary);
+  border-color:  var( --yellow-primary);
+}
+
+.btn-outline-custom:hover{
+  color: var(--black-primary);
+  background: var( --yellow-primary);
+  border-color: var( --yellow-primary);
+}
